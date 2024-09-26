@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to left, lightblue, lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
+
+.first-curr{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-curr{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.excange-rate{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+}
+
+select:focus, input:focus{
+    outline: 0;
+}
